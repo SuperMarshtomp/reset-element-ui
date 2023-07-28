@@ -1,0 +1,31 @@
+.el-descriptions {
+  &__title {
+    font-size: 14px;
+  }
+  &-item {
+    &__content,
+    &__label {
+      font-size: 12px;
+      line-height: 20px;
+      padding-bottom: 4px;
+      display: table-cell;
+      word-break: break-all;
+    }
+    &__content {
+      color: #333;
+    }
+    &__label {
+      color: #666;
+      white-space: nowrap;
+      min-width: 96px;
+      &::after {
+        content: ':';
+        margin-left: 4px;
+      }
+    }
+  }
+}
+
+.el-descriptions-item__label:not(.is-bordered-label) {
+  margin-right: 0;
+}

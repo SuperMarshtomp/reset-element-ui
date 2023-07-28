@@ -1,0 +1,59 @@
+.el-steps--simple {
+  background: transparent;
+  .el-step {
+    &.is-simple:not(:last-of-type) .el-step__title {
+      max-width: 80%;
+    }
+    @for $i from 1 through 9 {
+      &:nth-child(#{$i}) {
+        > .el-step__head:not(.is-success) .el-step__icon::after {
+          content: '#{$i}';
+        }
+      }
+    }
+
+    &.is-simple {
+      .el-step__icon {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+      }
+      .el-step__title {
+        letter-spacing: 0;
+        font-size: 14px;
+        text-align: center;
+      }
+      .el-step__arrow {
+        font-size: 16px;
+        &::before {
+          transform: rotate(0deg);
+          transform-origin: center 50%;
+          height: 1px;
+          width: calc(55% - 40px);
+          background: #d9d9d9;
+        }
+        &::after {
+          transform: rotate(0deg);
+          transform-origin: center 50%;
+          height: 1px;
+          width: calc(55% - 40px);
+          background: #d9d9d9;
+        }
+      }
+    }
+  }
+
+  .is-success {
+    .el-step__icon {
+      background-color: #e3efff;
+    }
+    & + .el-step__main {
+      .el-step__arrow {
+        &::before,
+        &::after {
+          background: #3d73f5;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+.clearfix {
+  *zoom: 1;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  &:before {
+    content: "";
+    display: table;
+  }
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.success {
+  &-bg-color {
+    background-color: $--color-success !important;
+  }
+  &-color {
+    color: $--color-success !important;
+  }
+}
+
+.info {
+  &-bg-color {
+    background-color: $--color-info !important;
+  }
+  &-color {
+    color: $--color-info !important;
+  }
+}
+
+.primary {
+  &-bg-color {
+    background-color: $--color-primary !important;
+  }
+  &-color {
+    color: $--color-primary !important;
+  }
+}
+
+.danger {
+  &-bg-color {
+    background-color: $--color-danger !important;
+  }
+  &-color {
+    color: $--color-danger !important;
+  }
+}
+
+.warning {
+  &-bg-color {
+    background-color: $--color-warning !important;
+  }
+  &-color {
+    color: $--color-warning !important;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

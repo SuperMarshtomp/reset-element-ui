@@ -1,0 +1,167 @@
+// * {
+//   padding: 0;
+//   margin: 0;
+//   box-sizing: border-box;
+// }
+body {
+  font: 13px/1.5 'sans-serif';
+}
+// li {
+//   list-style: none;
+// }
+// table {
+//   th,
+//   td {
+//     padding: 4px 0px !important;
+//   }
+// }
+a,
+.link-a {
+  // color: $primary-color !important;
+  color: $primary-color;
+}
+
+.ds-container .ds-content-main {
+  display: flex;
+}
+
+.ef-container-foot {
+  height: auto !important;
+}
+
+.ef-error-403 {
+  background-image: url('../img/empty.png') !important;
+}
+.ef-error-404 {
+  background-image: url('../img/empty.png') !important;
+}
+.ef-error-500 {
+  background-image: url('../img/empty.png') !important;
+}
+
+.ef-drawer-footer {
+  position: absolute;
+  padding: 10px 20px;
+  border-top: 1px solid #eee;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 11;
+}
+
+.ef-drawer-body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 48px;
+  padding: 20px;
+  overflow: auto;
+}
+
+.el-transfer-panel,
+.el-transfer-panel__filter.el-input {
+  width: auto;
+}
+
+.ef-action-wrap > .el-button {
+  float: none;
+}
+
+// @leaves/style 里面去掉了el-tree highlight-current样式效果，在这里加回去
+.el-tree--highlight-current .el-tree-node.is-current > .el-tree-node__content {
+  background-color: #f7f8fa;
+  color: #3d73f5;
+}
+
+.filter-bar + .el-table {
+  margin-top: 2 * $base-ratio-px;
+}
+
+.el-button {
+  & + .el-dropdown {
+    margin-left: 10px;
+  }
+}
+
+.el-table .cell > .el-button--text,
+.el-table .cell > .el-link--default,
+.el-table .cell > .el-link--primary {
+  font-size: 12px;
+}
+
+.prism-editor__editor {
+  word-break: break-all;
+}
+
+.prism-editor__textarea:focus {
+  outline: none;
+}
+
+.el-table .cell {
+  .el-icon-loading {
+    color: #4ca7fb;
+    ~ span {
+      color: #4ca7fb;
+    }
+  }
+}
+
+.el-cascader-menu__wrap {
+  height: 204px;
+}
+
+.el-breadcrumb__inner {
+  line-height: 24px;
+}
+
+.el-link.el-link--primary {
+  color: #3d73f5;
+}
+
+.el-menu.el-menu--horizontal {
+  border-bottom: none;
+}
+
+.el-form--inline {
+  justify-content: flex-end;
+}
+
+.el-checkbox__label {
+  font-size: 12px;
+}
+
+.el-message-box__message {
+  font-size: 13px;
+}
+
+.el-form--label-top .el-form-item__label {
+  padding-bottom: 0;
+}
+.el-form--label-right .el-form-item__label {
+  float: left;
+}
+
+.el-input-number__decrease, .el-input-number__increase {
+  background: #fff;
+}
+
+.el-message-box__wrapper,
+.el-drawer__wrapper,
+.el-dialog__wrapper {
+  background: #00000066;
+}
+.v-modal {
+  opacity: 0;
+}
+.el-main {
+  overflow: hidden;
+}
+.ef-error-type {
+  height: 220px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}

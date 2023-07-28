@@ -1,0 +1,21 @@
+{
+  "name": "reset-element-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperMarshtomp/reset-element-ui.git"
+  },
+  "keywords": [],
+  "author": "SuperMarshtomp <yongxuan_chen@foxmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuperMarshtomp/reset-element-ui/issues"
+  },
+  "homepage": "https://github.com/SuperMarshtomp/reset-element-ui#readme"
+}

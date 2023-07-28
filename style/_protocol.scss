@@ -1,0 +1,56 @@
+.protocol {
+  display: flex;
+
+  .el-checkbox__inner {
+    margin-right: 8px;
+  }
+
+  &_title {
+    margin-bottom: 8px;
+  }
+}
+
+.search-select {
+  &.el-select--small {
+    min-width: 100px;
+    margin-right: 8px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    .el-input__prefix {
+      position: relative;
+      box-sizing: border-box;
+      text-align: left;
+      border: 1px solid #ffffff00;
+      left: 0;
+      line-height: 32px;
+      padding: 0 8px;
+      color: #606266;
+      cursor: pointer;
+      user-select: none;
+      padding-right: 140px;
+      &::after {
+        content: ':';
+      }
+    }
+    input {
+      position: absolute;
+      padding-left: calc(100% - 132px);
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+@each $width in (50, 100, 150, 200, 300, 400) {
+  .search-select-#{$width} {
+    @extend .search-select;
+    &.el-select--small {
+      .el-input__prefix {
+        padding-right: $width * 1px + 40px;
+      }
+      input {
+        padding-left: calc(100% - $width * 1px - 32px);
+      }
+    }
+  }
+}

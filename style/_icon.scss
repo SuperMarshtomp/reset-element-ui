@@ -1,0 +1,77 @@
+@import "../fonts/iconfont.css";
+
+// body {
+//   [class^="el-icon-"],
+//   [class*=" el-icon-"] {
+//     /* use !important to prevent issues with browser extensions that change fonts */
+//     font-family: "iconfont", "element-icons" !important;
+//   }
+// }
+body {
+  .el-icon {
+    font-family: "element-icons" !important;
+  }
+}
+
+.el-icon-environment4 {
+  background: #e5f9ff;
+  &:before {
+    color: #02c5ff;
+    font-size: 35px;
+  }
+}
+.el-icon-environment5 {
+  background: #edf6fe;
+  &:before {
+    color: #0287ff;
+    font-size: 35px;
+  }
+}
+.el-icon-environment6 {
+  background: #fff0f0;
+  &:before {
+    color: #ff6c6c;
+    font-size: 35px;
+  }
+}
+.el-icon-environment7 {
+  background: #f0eff0;
+  &:before {
+    color: #ffb26c;
+    font-size: 35px;
+  }
+}
+.el-icon-experience {
+  background: rgba(65,208,154,0.10);
+  &:before {
+    color: #41D09A;
+    font-size: 35px;
+  }
+}
+.env-icon-content {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ef-menu__icon {
+  fill: rgb(136, 135, 153) !important;
+  color: rgb(136, 135, 153);
+}
+
+.el-submenu__icon-arrow {
+  transform: rotateZ(-90deg);
+}
+
+.el-submenu.is-opened > .el-submenu__title .el-submenu__icon-arrow {
+  transform: rotateZ(0deg);
+}
+
+.ef-menu__trigger, .ef-menu__content {
+  svg {
+    fill: rgb(185, 187, 190);
+  }
+}

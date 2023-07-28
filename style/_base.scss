@@ -1,0 +1,169 @@
+.text-left {
+  float: left;
+}
+.text-right {
+  float: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-muted {
+  color: $disable-color;
+}
+.text-primary {
+  color: $primary-color;
+}
+.text-success {
+  color: $success-color;
+}
+.text-warning {
+  color: $warning-color;
+}
+.text-remain {
+  color: #3d73f5;
+}
+.text-danger {
+  color: $error-color;
+}
+.text-ellipse {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.h-mini {
+  height: 16px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+
+.bg-white {
+  background: #fff;
+}
+.bg-gray {
+  background: #ccc;
+}
+.bg-info {
+  background: #f9f9f9;
+}
+
+.link {
+  color: #7a7ad4;
+}
+
+.require {
+  color: #ff4545;
+}
+
+.dash {
+  &--left {
+    border-left: 1px dashed #e2e2e2;
+  }
+  &--right {
+    border-right: 1px dashed #e2e2e2;
+  }
+  &--top {
+    border-top: 1px dashed #e2e2e2;
+  }
+  &--bottom {
+    border-bottom: 1px dashed #e2e2e2;
+  }
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+// .title {
+//     font-size: 16px;
+//     font-weight: bolder;
+//     padding-left: 8px;
+//     border-left: 3px solid #3d73f5;
+// }
+// .add {
+//     background-color: $primary-color;
+//     padding: 2px;
+//     vertical-align: sub;
+// }
+
+.add-number {
+  color: #3d73f5;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+.font-danger {
+  color: #fb6251;
+}
+
+.font-success {
+  color: #3dcca6;
+}
+
+.font-error {
+  color: #fd8774;
+}
+
+textarea {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.tips {
+  color: #7c818c;
+  font-size: 11px;
+}
+
+.warning {
+  color: #fd8774;
+}

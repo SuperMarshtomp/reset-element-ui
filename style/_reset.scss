@@ -66,7 +66,7 @@ a,
 }
 
 .ef-action-wrap > .el-button {
-  float: none;
+  float: none !important;
 }
 
 // @leaves/style 里面去掉了el-tree highlight-current样式效果，在这里加回去
@@ -143,7 +143,8 @@ a,
   float: left;
 }
 
-.el-input-number__decrease, .el-input-number__increase {
+.el-input-number__decrease,
+.el-input-number__increase {
   background: #fff;
 }
 
@@ -164,4 +165,26 @@ a,
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: contain;
+}
+
+.ef-error {
+  &-type {
+    height: 120px !important;
+    width: 120px !important;
+    margin-right: 30px;
+  }
+  &-message {
+    margin-top: 0 !important;
+    color: #666666 !important;
+    font-size: 14px;
+    h1 {
+      font-size: 20px;
+      line-height: 30px;
+      padding-bottom: 8px !important;
+      color: #333333 !important;
+    }
+  }
+  &-action {
+    margin-top: 24px !important;
+  }
 }

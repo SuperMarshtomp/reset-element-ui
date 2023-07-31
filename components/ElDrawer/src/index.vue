@@ -1,5 +1,9 @@
 <template>
-  <default-el-drawer v-on="$listeners" v-bind="$attrs" :append-to-body="true">
+  <default-el-drawer
+    ref="ElDrawer"
+    v-on="$listeners"
+    v-bind="$attrs"
+    :append-to-body="true">
     <template #title>
       <slot name="title" />
     </template>
@@ -17,5 +21,8 @@
   export default {
     name: 'ElDrawer',
     components: { 'default-el-drawer': Drawer },
+    mounted() {
+      this.$refs.ElDrawer._data.rendered = true;
+    },
   };
 </script>

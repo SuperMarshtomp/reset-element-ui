@@ -15,7 +15,9 @@ h3 {
 
 .el-table--small th,
 .el-table th {
-  font-weight: 600;
+  .cell {
+    font-weight: 600;
+  }
 }
 
 .el-tabs__item.is-top {

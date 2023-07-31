@@ -18,9 +18,12 @@
       color: #666;
       white-space: nowrap;
       min-width: 96px;
-      &::after {
-        content: ':';
-        margin-left: 4px;
+      // &::after {
+      //   content: ':';
+      //   margin-left: 4px;
+      // }
+      &.has-colon::after {
+        content: '';
       }
     }
   }

@@ -1,22 +1,27 @@
 $base-ratio-px: 8px !default;
 
-$primary-color:#4CA7FB !default;
-$error-color: #E44E2D !default;
-$success-color: #64AB4B !default;
-$warning-color: #fec33a !default;
+// Site Color
+$primary-color: #3d73f5 !default;
+$secondary-color: #2c2e48 !default;
+$error-color: #FF4545 !default;
+$success-color: #27D68F !default;
+$warning-color: #fa9831 !default;
 $disable-color: #999999 !default;
-$caption-color: #777777 !default; 
-$shadow-color: #928d8d !default;
-$bg-tint-color: #f4f5f6 !default;
-$bd-color: #e2e2e2 !default;
-$bgColor:#f6f8fb !default;
-$main-color: #fa8334 !default;
-$hint-color: #ff4c4c !default;
-$table-bg-color: #e1e4e5 !default;
-$radio-bg-color: #3d73f5 !default;
-$bd-color:  #dcdfe6 !default;
-$bd-banner-color:  #f2f2f2 !default;
-$info-color: #909399 !default;
+$title-color: #333333 !default;
+$body-color: #666666 !default;
+$grey-color: #7C818C !default;
+$caption-color: #777777 !default;
+$white-color: #ffffff !default;
+$placeholder-color: #cccccc !default;
+$item-hover-color: #f5f9fd !default;
+$window-bg-color: #fafafa !default;
+$head-border-color: #e9e9e9 !default;
+$top-bar-bg-color: #454a5e !default;
+$body-bg-color: #f8f8f8 !default;
+$aside-menu-bg-color: #3c3e53 !default;
+$aside-menu-item-hover-color: #383f45 !default;
+$sub-menu-bg-color: #313348 !default;
+
 
 $containerMaxWidth: 1200px;
 $baseSpacing: 8px;
@@ -44,7 +49,7 @@ $zIndex-1011: 1011 !default;
 // Site Color
 $secondary-color: #2c2e48 !default;
 $title-color: #333333 !default;
-$body-color: #555555 !default;
+$body-color: #666666 !default;
 $grey-color: #666666 !default;
 $white-color: #ffffff !default;
 $placeholder-color: #cccccc !default;

@@ -21,8 +21,14 @@
   export default {
     name: 'ElDrawer',
     components: { 'default-el-drawer': Drawer },
+    props: {
+      render: {
+        type: Boolean,
+        default: false
+      }
+    },
     mounted() {
-      this.$refs.ElDrawer._data.rendered = true;
+      if (this.render) this.$refs.ElDrawer._data.rendered = true;
     },
   };
 </script>

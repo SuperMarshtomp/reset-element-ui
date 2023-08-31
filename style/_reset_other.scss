@@ -2,9 +2,13 @@
   color: #fa9831;
 }
 
-.el-card {
-  border-radius: 3px;
-  border: 1px solid #eff1f4 !important;
+.new-ef-container-body,
+.el-drawer__wrapper,
+.el-dialog__body {
+  .el-card {
+    border-radius: 3px;
+    border: 1px solid #eff1f4;
+  }
 }
 
 h3 {

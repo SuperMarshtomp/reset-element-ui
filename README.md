@@ -41,3 +41,12 @@ application.useAddon(Element).useAddon(ResetUI)
 
 ## 注意！
 请尽量减少用ef开头的任何组件，这些组件不受控，不受样式重置影响，如项目中有用到ef相关的内置组件可以寻找替换方法
+
+假如是使用webpack打包需要配置
+```js
+module.exports = {
+  css: {
+    extract: false,
+  }
+}
+```
